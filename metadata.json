@@ -1,0 +1,5 @@
+{
+  "name": "AirPrice AI - Dynamic Pricing Simulator",
+  "description": "An AI-powered dynamic pricing simulator for Airbnb hosts. Input your location and dates to receive market-driven pricing estimates, demand analysis, and revenue projections.",
+  "requestFramePermissions": []
+}
