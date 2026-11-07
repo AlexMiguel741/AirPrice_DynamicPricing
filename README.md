@@ -1,5 +1,10 @@
 # AirPrice: AI Dynamic Pricing Simulator
 
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Gemini](https://img.shields.io/badge/LLM-Gemini%202.5%20Flash-8E75B2?logo=googlegemini&logoColor=white)
+![Grounding](https://img.shields.io/badge/Google%20Search-grounding-4285F4?logo=google&logoColor=white)
+
 A pricing assistant for short-term rental hosts. Enter a location and dates, and the app uses
 an LLM (Google Gemini) to return a suggested nightly price, a demand analysis, comparable
 listings and a revenue projection, with an explanation for every price change.
@@ -12,11 +17,11 @@ listings and a revenue projection, with an explanation for every price change.
 - **Listing audit** with improvement suggestions
 - **Charts** for price trends and projected revenue
 
-## Stack
+## Tech Stack
 
 React 19 · TypeScript · Vite · Recharts · Google Gemini API (`@google/genai`)
 
-## How it works
+## Architecture
 
 `services/geminiService.ts`:
 
